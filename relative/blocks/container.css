@@ -2,6 +2,7 @@
   max-width: 100%;
   background-color: aqua;
   height: 300px;
+  position: relative;
 }
 
 .container__square {
@@ -12,4 +13,7 @@
 
 .container__square--colorred {
   background-color: red;
+  position: absolute;
+  top: 100px;
+  left: 900px;
 }
