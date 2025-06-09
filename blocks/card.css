@@ -1,0 +1,25 @@
+.card {
+  width: 200px;
+  height: 300px;
+  margin: 1px;
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__title {
+  color: white;
+  text-align: center;
+}
+
+.card__image {
+  width: 90%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.card__description {
+  color: white;
+}

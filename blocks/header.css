@@ -1,0 +1,31 @@
+.header {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 24px;
+}
+
+.header__navbar {
+  width: 400px;
+}
+
+.header__menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__list-element {
+  color: black;
+  font-weight: bolder;
+}
+
+.header__list-element_color {
+  color: red;
+}

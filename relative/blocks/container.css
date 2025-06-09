@@ -1,0 +1,15 @@
+.container__row {
+  max-width: 100%;
+  background-color: aqua;
+  height: 300px;
+}
+
+.container__square {
+  height: 100px;
+  width: 100px;
+  background-color: beige;
+}
+
+.container__square--colorred {
+  background-color: red;
+}
