@@ -3,4 +3,25 @@
   height: 600px;
   background-color: #000001;
   margin: 0 auto;
+  position: relative;
+}
+
+.rectangle__close-button {
+  position: absolute;
+  right: -45px;
+  top: -45px;
+}
+
+.rectangle__users-name {
+  font-size: 24px;
+}
+
+.rectangle__users-name:hover {
+  color: aqua;
+}
+
+.rectangle__users-name::after {
+  content: " <- BORING";
+  color: darkviolet;
+  font-weight: bolder;
 }

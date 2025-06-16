@@ -3,4 +3,14 @@
   background-color: #d9d9d9;
   padding-top: 100px;
   padding-bottom: 100px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 40px;
+  color: azure;
+}
+
+.page__image {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
