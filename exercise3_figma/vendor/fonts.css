@@ -1,0 +1,38 @@
+/* latin-ext */
+@font-face {
+  font-family: "Edu VIC WA NT Hand Pre";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(./fonts/neIazDmioZxjkInM_tLHFudmcN2Uxxc-9Vnv0YQOe5m1ZGnTYQ.woff2)
+    format("woff2");
+}
+/* latin */
+@font-face {
+  font-family: "Edu VIC WA NT Hand Pre";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(./fonts/neIazDmioZxjkInM_tLHFudmcN2Uxxc-9Vnv0YoOe5m1ZGk.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 100 1000;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./fonts/NaNNepOXO_NexZs0b5QrzlOHb8wCikXpYqmZsWI-__OGbt8jZktqc2V3Zs0KvDLdBP8SBZtOs2IifRuUZQMsPJtUsR4DEK6cULNeUx9XgTnH37Ha_FIAp4Fm0PP1hw45DntW2x0wZGzhPmr1YNMYKYn9_1IQXGwJAiUJVUMdN5YUW4O8HtSoXjC79QRyaLshNDUf3e0O-gn5rrZCu20YNau2OPFu02G5bac.woff2)
+    format("woff2");
+}
+/* latin */
+@font-face {
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 100 1000;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./fonts/NaNNepOXO_NexZs0b5QrzlOHb8wCikXpYqmZsWI-__OGbt8jZktqc2V3Zs0KvDLdBP8SBZtOs2IifRuUZQMsPJtUsR4DEK6cULNeUx9XgTnH37Ha_FIAp4Fm0PP1hw45DntW2x0wZGzhPmr1YNMYKYn9_1IQXGwJAiUJVUMdN5YUW4O8HtSoXjC79QRyaLshNDUf3e0O-gn5rrZCu20YNau4OPFu02G5.woff2)
+    format("woff2");
+}
