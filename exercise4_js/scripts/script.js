@@ -22,6 +22,11 @@ const travelerProfileAddPlaceBtn = document.querySelector(
   ".traveler-profile__add-place-btn"
 );
 
+const travelerProfileEditBtn = document.querySelector(
+  ".traveler-profile__edit-btn"
+);
+
+const modalProfile = document.querySelector("#modal-profile");
 const ModalNewPlace = document.querySelector("#modal-new-place");
 const modalImageView = document.querySelector("#modal-image-view");
 
@@ -40,9 +45,15 @@ function addCard(){
 
 const modalsClose = Array.from(document.querySelectorAll(".modal__close"));
 
+travelerProfileEditBtn.addEventListener("click", () => {
+  console.log("Click en el lapizito");
+  modalProfile.classList.toggle("modal_is-opened");
+});
+
 modalsClose.forEach((modalClose) => {
-  modalClose.addEventListener("click", () => {
-    ModalNewPlace.classList.toggle("modal_is-opened");
+  modalClose.addEventListener("click", (evt) => {
+    const modal = evt.target.closest(".modal");
+    modal.classList.toggle("modal_is-opened");
   });
 });
 

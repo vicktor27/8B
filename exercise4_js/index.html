@@ -46,46 +46,8 @@
       <footer class="footer site__section">
         <p class="footer__text">© Magical Mexico</p>
       </footer>
-      <div class="modal" id="modal-edit-profile">
-        <div class="modal__box">
-          <button
-            aria-label="Close modal"
-            class="modal__close"
-            type="button"
-          ></button>
-          <h3 class="modal__title">Edit Profile</h3>
-          <form class="modal__form" id="form-edit-profile" novalidate>
-            <label class="modal__field">
-              <input
-                id="traveler-name"
-                class="modal__input modal__input_type_name"
-                name="name"
-                placeholder="Name"
-                type="text"
-                minlength="2"
-                maxlength="40"
-                required
-              />
-              <span class="modal__error" id="traveler-name-error"></span>
-            </label>
-            <label class="modal__field">
-              <input
-                id="traveler-bio"
-                class="modal__input modal__input_type_bio"
-                name="image"
-                placeholder="About me"
-                type="text"
-                minlength="2"
-                maxlength="200"
-                required
-              />
-              <span class="modal__error" id="traveler-bio-error"></span>
-            </label>
-            <button class="button modal__submit" type="submit">Save</button>
-          </form>
-        </div>
-      </div>
-      <div class="modal" id="modal-new-place">
+
+      <div class="modal" id="modal-profile">
         <div class="modal__content">
           <button
             aria-label="Close modal"
@@ -115,6 +77,44 @@
                 placeholder="Image URL"
                 required
                 type="url"
+              />
+              <span class="modal__error" id="place-image-url-error"></span>
+            </label>
+            <button class="modal__button" type="submit">Create</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="modal" id="modal-new-place">
+        <div class="modal__content">
+          <button
+            aria-label="Close modal"
+            class="modal__close"
+            type="button"
+          ></button>
+          <h3 class="modal__title">Edit Profile</h3>
+          <form class="modal__form" id="form-new-place" novalidate>
+            <label class="modal__field">
+              <input
+                id="profile-name"
+                class="modal__input modal__input_type_title"
+                name="name"
+                placeholder="Title"
+                minlength="2"
+                maxlength="30"
+                required
+                type="text"
+              />
+              <span class="modal__error" id="place-title-error"></span>
+            </label>
+            <label class="modal__field">
+              <input
+                id="profile-description"
+                class="modal__input modal__input_type_image-url"
+                name="image"
+                placeholder="Image URL"
+                required
+                type="text"
               />
               <span class="modal__error" id="place-image-url-error"></span>
             </label>
