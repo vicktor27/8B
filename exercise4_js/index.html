@@ -9,7 +9,9 @@
   </head>
 
   <body class="site">
+    <!--Site wrapper. Here we have all the globals configurations  -->
     <div class="site__wrapper">
+      <!-- This is the header, here we have the banner, logo and the navbar-->
       <header class="banner site__section">
         <img
           alt="Magical Mexico Logo"
@@ -18,12 +20,14 @@
         />
       </header>
       <main class="main-content">
+        <!--Here we have all the user data, Name, biographty and the users picture -->
         <section class="traveler-profile site__section">
           <img
             class="traveler-profile__image"
             src="./images/gordon.jpg"
             alt="Avatar"
           />
+
           <div class="traveler-profile__details">
             <h1 class="traveler-profile__name" id="h1temporal">Victor Solis</h1>
             <button
@@ -54,7 +58,46 @@
             class="modal__close"
             type="button"
           ></button>
-          <h3 class="modal__title">Add New Place</h3>
+          <h3 class="modal__title">Edit Profile</h3>
+
+          <form class="modal__form" id="form-new-place" novalidate>
+            <label class="modal__field">
+              <input
+                id="profile-name"
+                class="modal__input modal__input_type_title"
+                name="name"
+                placeholder="Title"
+                minlength="2"
+                maxlength="30"
+                required
+                type="text"
+              />
+              <span class="modal__error" id="profile-name-error"></span>
+            </label>
+            <label class="modal__field">
+              <input
+                id="profile-description"
+                class="modal__input modal__input_type_image-url"
+                name="image"
+                placeholder="Image URL"
+                required
+                type="text"
+              />
+              <span class="modal__error" id="profile-description-error"></span>
+            </label>
+            <button class="modal__button" type="submit">Create</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="modal" id="modal-new-place">
+        <div class="modal__content">
+          <button
+            aria-label="Close modal"
+            class="modal__close"
+            type="button"
+          ></button>
+          <h3 class="modal__title">New Place</h3>
           <form class="modal__form" id="form-new-place" novalidate>
             <label class="modal__field">
               <input
@@ -77,44 +120,6 @@
                 placeholder="Image URL"
                 required
                 type="url"
-              />
-              <span class="modal__error" id="place-image-url-error"></span>
-            </label>
-            <button class="modal__button" type="submit">Create</button>
-          </form>
-        </div>
-      </div>
-
-      <div class="modal" id="modal-new-place">
-        <div class="modal__content">
-          <button
-            aria-label="Close modal"
-            class="modal__close"
-            type="button"
-          ></button>
-          <h3 class="modal__title">Edit Profile</h3>
-          <form class="modal__form" id="form-new-place" novalidate>
-            <label class="modal__field">
-              <input
-                id="profile-name"
-                class="modal__input modal__input_type_title"
-                name="name"
-                placeholder="Title"
-                minlength="2"
-                maxlength="30"
-                required
-                type="text"
-              />
-              <span class="modal__error" id="place-title-error"></span>
-            </label>
-            <label class="modal__field">
-              <input
-                id="profile-description"
-                class="modal__input modal__input_type_image-url"
-                name="image"
-                placeholder="Image URL"
-                required
-                type="text"
               />
               <span class="modal__error" id="place-image-url-error"></span>
             </label>
