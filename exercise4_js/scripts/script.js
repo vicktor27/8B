@@ -37,7 +37,7 @@ const travelerProfileEditBtn = document.querySelector(
   ".traveler-profile__edit-btn"
 );
 
-//this function take all the inputs in a form an then validates the data using the required fields
+//this function take all the inputs in a form an then validates the data using the required fields.
 const validarBoton = (modalInputs) => {
   return modalInputs.some((inputElement) => {
     return !inputElement.validity.valid;
